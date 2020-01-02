@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:latest
 ENV CONFIG_JSON=none
 RUN apk add --no-cache --virtual .build-deps ca-certificates curl bash \
  && curl https://install.direct/go.sh | bash \
