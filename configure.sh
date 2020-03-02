@@ -1,5 +1,5 @@
 #!/bin/bash
 # V2Ray new configuration
-echo "$CONFIG_JSON" > /etc/v2ray/config.json
+echo "$CONFIG_JSON" > /v2/config.json
 # Run V2Ray
-/usr/bin/v2ray/v2ray -config=/etc/v2ray/config.json
+/v2/v2ray -config=/v2/config.json
