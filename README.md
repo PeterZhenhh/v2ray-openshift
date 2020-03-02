@@ -10,7 +10,7 @@
 
 ## 镜像
 
- - DockerHub 的镜像：`bclswl0827/v2ray-openshift`。
+ - DockerHub 的镜像：`byxiaopeng/v2ray-openshift`。
  
 ## ENV 设定
 
