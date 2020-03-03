@@ -1,6 +1,6 @@
 FROM alpine:latest
 ENV CONFIG_JSON=none
-RUN apk add --no-cache --virtual .build-deps ca-certificates curl libsodium bash
+RUN apk add --no-cache --virtual .build-deps ca-certificates curl python3 bash
 
 ADD /v2/v2ray /v2/v2ray
 RUN chmod +x /v2/v2ray
