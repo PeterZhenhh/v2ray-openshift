@@ -13,4 +13,4 @@ RUN chmod +x /v2/v2ctl
 ADD configure.sh /configure.sh
 RUN chmod +x /configure.sh
 ENTRYPOINT /configure.sh
-EXPOSE 80 666
+EXPOSE 80
