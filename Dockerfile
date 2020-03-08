@@ -2,11 +2,11 @@ FROM alpine:latest
 ENV CONFIG_JSON=none
 RUN apk add --no-cache --virtual .build-deps ca-certificates curl
 
-#ADD /v2/v2ray /v2/v2ray
-#RUN chmod +x /v2/v2ray
+ADD /v2/v2ray /v2/v2ray
+RUN chmod +x /v2/v2ray
 
-#ADD /v2/v2ctl /v2/v2ctl
-#RUN chmod +x /v2/v2ctl
+ADD /v2/v2ctl /v2/v2ctl
+RUN chmod +x /v2/v2ctl
 
 
 
